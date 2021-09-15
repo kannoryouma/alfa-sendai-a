@@ -159,7 +159,7 @@ button {
   padding: 20px 30px;
   position: relative;
   cursor: pointer;
-  color : purple
+  color : purple;
 }
 
 .card__content {
