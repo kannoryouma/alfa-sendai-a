@@ -100,7 +100,7 @@ app.component('answer-input', {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
       okMessage: '正解！',
-      ngMessage: 'そのワードは違うようだぞ！？!?!?!?!?!?!?!?!?',
+      ngMessage: 'そのワードは違うようだぞꔼ！？',
       message: '',
       inputAnswer: '',
     }
