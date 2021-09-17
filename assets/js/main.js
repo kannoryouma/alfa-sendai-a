@@ -103,7 +103,7 @@ app.component('answer-input', {
       ngMessage: 'そのワードは違うようだぞꔼ！？',
       message: '',
       inputAnswer: '',
-      color: yellow;
+      color: yellow,
     }
   },
   template: `
