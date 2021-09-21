@@ -83,9 +83,9 @@ Youtube貼り付けここまで -->
           v-if="clear['stage1']"はclear['stage1']がtrueになったら表示します。
           v-bind:class="{isClear:clear['stage1']}"はclear['stage1']がtrueになったら「isClear」クラスを追加します。
         -------------------------------------------------------------------------------------------------------->
-       <img src="assets/images/L921.png" alt="封鎖された家庭科室からの脱出">
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
+             <img src="assets/images/L921.png" alt="封鎖された家庭科室からの脱出">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
               <div class="clear-message__content">チャタライとフォレが仲間になった!!<br>
